@@ -1,15 +1,12 @@
-# Zorvyn Finance Dashboard
+ Finance Dashboard
 
-A modern, interactive finance dashboard built with React and Vite for the Zorvyn Frontend Developer Intern assignment.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This is a single-file finance dashboard application that allows users to track their financial activity, understand spending patterns, and manage transactions with role-based access control. The project focuses on clean UI/UX design, responsive layout, and effective state management.
 
-**Developer:** Tejas Shinde  
-**Email:** tejasshinde2703@gmail.com
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. **Dashboard Overview**
 - **Summary Cards** displaying Total Balance, Total Income, and Total Expenses
@@ -68,7 +65,7 @@ This is a single-file finance dashboard application that allows users to track t
 - Proper date formatting based on locale (en-IN)
 - Graceful handling of empty pie chart
 
-## 🏗️ Architecture & Code Structure
+##  Architecture & Code Structure
 
 ### Single-File Design
 The entire application is built in one `App.jsx` file for simplicity and ease of submission:
@@ -98,7 +95,7 @@ The App component is organized into the following sections:
 - newTransaction: Transaction object
 ```
 
-## 📊 Mock Data
+##  Mock Data
 
 The dashboard comes with 10 sample transactions:
 - 2 Income transactions (Salary, Freelance Work)
@@ -109,7 +106,7 @@ The dashboard comes with 10 sample transactions:
 **Categories included:**
 Salary, Freelance Work, Groceries, Rent, Entertainment, Utilities, Transportation, Shopping, Healthcare, Dining
 
-## 🎨 Technology Stack
+##  Technology Stack
 
 - **Framework:** React 19.2.4
 - **Build Tool:** Vite 8.0.1
@@ -117,7 +114,7 @@ Salary, Freelance Work, Groceries, Rent, Entertainment, Utilities, Transportatio
 - **Charting:** Recharts 3.8.1
 - **Language:** JavaScript/JSX
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -144,7 +141,7 @@ npm run preview
 
 The dashboard will be available at `http://localhost:5173`
 
-## 💡 How to Use
+##  How to Use
 
 ### As a Viewer:
 1. View all financial data (balance, income, expenses)
@@ -165,14 +162,14 @@ The dashboard will be available at `http://localhost:5173`
 - **Type Filter:** Choose between All, Income, or Expense
 - **Sort Dropdown:** Sort by newest date, highest amount, or lowest amount
 
-## 📱 Responsive Design Features
+##  Responsive Design Features
 
 - **Desktop (1024px+):** 3-column grid for cards, 2-column grid for charts
 - **Tablet (768px-1023px):** 2 columns for some sections
 - **Mobile (<768px):** Single column layout, stacked elements
 - **Forms:** Responsive input grid adapts to screen size
 
-## 🎯 Features Demonstrating Best Practices
+##  Features Demonstrating Best Practices
 
 1. **Code Quality:**
    - Clear, descriptive variable names
@@ -196,7 +193,7 @@ The dashboard will be available at `http://localhost:5173`
    - Clear separation of logic and UI
    - Easy to extend with additional features
 
-## 📈 Future Enhancement Possibilities
+##  Future Enhancement Possibilities
 
 - Dark mode toggle
 - Local storage persistence
@@ -209,7 +206,7 @@ The dashboard will be available at `http://localhost:5173`
 - Mobile app version
 - Backend API integration
 
-## ✅ Assignment Fulfillment
+##  Assignment Fulfillment
 
 ✅ **Dashboard Overview** - Summary cards and visualizations included  
 ✅ **Transactions Section** - Full list with filtering, sorting, and search  
@@ -221,22 +218,6 @@ The dashboard will be available at `http://localhost:5173`
 ✅ **Edge Cases** - Empty states and validation handled  
 ✅ **Documentation** - Clear README with usage instructions  
 
-## 📄 Assignment Details
-
-- **Objective:** Build a clean and interactive finance dashboard interface
-- **Framework:** React with Tailwind CSS
-- **Requirements:** All core requirements met with additional polish
-- **Submission:** Complete single-file application ready for evaluation
-
-## 👨‍💼 Author & Contact
-
-**Tejas Shinde**  
-Frontend Developer Intern  
-Email: tejasshinde2703@gmail.com
-
-© 2026 Zorvyn FinTech Pvt. Ltd. All rights reserved.
-
----
 
 **Last Updated:** April 3, 2026  
 **Status:** Ready for Submission
